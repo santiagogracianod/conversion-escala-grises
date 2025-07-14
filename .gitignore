@@ -1,0 +1,42 @@
+# ---------------------------
+# Archivos y carpetas genéricas
+# ---------------------------
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# ---------------------------
+# Entornos virtuales de Python
+# ---------------------------
+.venv/
+venv/
+ENV/
+
+# ---------------------------
+# Artefactos de compilación C
+# ---------------------------
+*.o          # Objetos intermedios
+grayscale_secuelcial_opt
+grayscale_paralelo_opt
+
+# ---------------------------
+# Salidas y artefactos generados por el benchmark
+# ---------------------------
+out*
+salida_*.jpg
+speedup_*.png
+tiempos_*.png
+
+# CSV de datos crudos o agregados
+resultados.csv
+stats.csv
+
+# ---------------------------
+# Imágenes de prueba grandes
+# (si prefieres no versionarlas, deja estas líneas sin comentar)
+# ---------------------------
+#img_small.jpg
+#img_medium.jpg
+#img_large.jpg
